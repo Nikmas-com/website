@@ -1,3 +1,4 @@
+import Appear from '@/components/elements/Appear';
 import BasicTextNode from '@/components/elements/BasicTextNode';
 import MainContainer from '@/components/elements/MainContainer';
 import nikmasDark from '@/public/images/nikmas-dark.png';
@@ -54,20 +55,24 @@ function Intro(): ReactElement {
             className='mt-12  w-2/5  self-center  sm:w-32  md:mt-0  md:w-[17vw]  md:translate-y-[4px]
                      md:self-start  2lg:w-[14vw]  xl:w-[clamp(1px,25.8vh,min(14vw,13.44rem))]'
           >
-            <Image
-              className='w-full  dark:hidden'
-              src={nikmasLight}
-              alt='Nikmas'
-              quality={100}
-              priority
-            />
-            <Image
-              className='hidden  w-full  dark:inline-block'
-              src={nikmasDark}
-              alt='Nikmas'
-              quality={100}
-              priority
-            />
+            <Appear>
+              <Image
+                className='w-full  dark:hidden'
+                src={nikmasLight}
+                alt='Nikmas'
+                quality={100}
+                priority
+                sizes='(max-width: 639px) 40vw, (max-width: 767px) 128px, (max-width: 1179) 17vw, 215px'
+              />
+              <Image
+                className='hidden  w-full  dark:inline-block'
+                src={nikmasDark}
+                alt='Nikmas'
+                quality={100}
+                priority
+                sizes='(max-width: 639px) 40vw, (max-width: 767px) 128px, (max-width: 1179) 17vw, 215px'
+              />
+            </Appear>
           </div>
         </div>
       </MainContainer>

@@ -23,18 +23,22 @@ function Ecosystem(): ReactElement {
                 <Image
                   className='w-full
                          will-change-transform
-                         [filter:drop-shadow(0_0_100px_rgba(0,0,0,0.07))]  dark:hidden'
+                         [filter:drop-shadow(0_0_80px_rgba(0,0,0,0.07))]  dark:hidden'
                   src={NikmasStudioLight}
                   alt='Nikmas Studio'
+                  quality={100}
+                  sizes='320px'
                 />
                 <Image
                   className='hidden  w-full
                          will-change-transform
-                         [filter:drop-shadow(0_0_100px_rgba(255,255,255,0.18))]  
+                         [filter:drop-shadow(0_0_80px_rgba(255,255,255,0.18))]  
                          xl:[filter:drop-shadow(0_0_120px_rgba(255,255,255,0.14))]  
                          dark:inline-block'
                   src={NikmasStudioDark}
                   alt='Nikmas Studio'
+                  quality={100}
+                  sizes='320px'
                 />
               </ExternalLink>
             </div>
