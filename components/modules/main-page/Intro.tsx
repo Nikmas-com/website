@@ -1,6 +1,7 @@
 import Appear from '@/components/elements/Appear';
 import BasicTextNode from '@/components/elements/BasicTextNode';
 import MainContainer from '@/components/elements/MainContainer';
+import Successful from '@/components/elements/Successful';
 import nikmasDark from '@/public/images/nikmas-dark.png';
 import nikmasLight from '@/public/images/nikmas-light.png';
 import Image from 'next/image';
@@ -22,7 +23,8 @@ function Intro(): ReactElement {
                        dark:text-white'
             >
               From Ideas
-              <br /> to&nbsp;<span className='text-green'>Successful</span>
+              <br /> to&nbsp;
+              <Successful />
               <br className='' /> Tech Businesses
             </h1>
             <BasicTextNode

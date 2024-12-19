@@ -39,7 +39,7 @@ function Appear({ children }: { children: ReactNode }): ReactElement {
 
   return (
     <div
-      className='md:opacity-0  [transition:opacity_1s_ease-out]'
+      className='[transition:opacity_1s_ease-out]  md:opacity-0'
       ref={contentBlockRef}
     >
       {children}
