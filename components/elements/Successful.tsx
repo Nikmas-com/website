@@ -40,7 +40,7 @@ function Successful(): ReactElement {
   return (
     <span
       ref={successfulRef}
-      className='text-green  [transition:color_0.3s_ease-out]  md:text-black  dark:md:text-white'
+      className='text-green  [transition:color_0.4s_ease-out]  md:text-black  dark:md:text-white'
     >
       Successful
     </span>
