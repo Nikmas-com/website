@@ -8,14 +8,14 @@ import { Metadata } from 'next';
 import { ReactElement } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Nikmas',
+  title: 'Nikmas Tech',
   description:
-    'Nikmas is a Tech Cofounding Company. We partner with entrepreneurs, bringing our full expertise to transform ideas into highly profitable and useful tech businesses.',
+    'Nikmas Tech is a Cofounding Company. We partner with entrepreneurs, bringing our full expertise to transform ideas into highly profitable and useful tech businesses.',
   openGraph: {
-    title: 'Nikmas',
+    title: 'Nikmas Tech',
     description:
-      'Nikmas is a Tech Cofounding Company. We partner with entrepreneurs, bringing our full expertise to transform ideas into highly profitable and useful tech businesses.',
-    url: 'https://nikmas.com',
+      'Nikmas Tech is a Cofounding Company. We partner with entrepreneurs, bringing our full expertise to transform ideas into highly profitable and useful tech businesses.',
+    url: 'https://nikmas.tech',
     siteName: 'Nikmas',
     images: [
       {
