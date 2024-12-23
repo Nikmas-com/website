@@ -26,11 +26,11 @@ function Footer({ className }: FooterProps): ReactElement {
                    sm:items-start  sm:justify-between'
       >
         <div className='flex  flex-col  items-center  sm:items-start'>
-          <p className='mb-5  text-lg  dark:text-white'>© Nikmas, 2024</p>
+          <p className='mb-5  text-lg  dark:text-white'>© Nikmas Tech, 2024</p>
         </div>
         <ul className='mb-12  flex  gap-5  sm:mb-0  sm:grid  sm:grid-cols-2  md:grid-flow-col'>
           <li>
-            <ExternalLink href='https://t.me/nikmas_com'>
+            <ExternalLink href='https://t.me/nikmas_tech'>
               <Image
                 src={telegramLogo}
                 alt='Telegram logo'
@@ -42,7 +42,7 @@ function Footer({ className }: FooterProps): ReactElement {
             </ExternalLink>
           </li>
           <li>
-            <ExternalLink href='https://www.instagram.com/nikmas_com'>
+            <ExternalLink href='https://www.instagram.com/nikmas_tech'>
               <Image
                 src={instagramLogo}
                 alt='Instagram logo'
@@ -54,7 +54,7 @@ function Footer({ className }: FooterProps): ReactElement {
             </ExternalLink>
           </li>
           <li>
-            <ExternalLink href='https://www.facebook.com/nikmascom'>
+            <ExternalLink href='https://www.facebook.com/nikmas.tech'>
               <Image
                 src={facebookLogo}
                 alt='Facebook logo'
@@ -66,7 +66,7 @@ function Footer({ className }: FooterProps): ReactElement {
             </ExternalLink>
           </li>
           <li>
-            <ExternalLink href='https://www.linkedin.com/company/nikmas'>
+            <ExternalLink href='https://www.linkedin.com/company/nikmas-tech'>
               <Image
                 src={linkedinLogo}
                 alt='LinkedIn logo'

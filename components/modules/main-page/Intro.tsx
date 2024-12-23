@@ -36,13 +36,13 @@ function Intro(): ReactElement {
                        2xl:max-w-[50rem]'
             >
               <span className='sm:hidden'>
-                Nikmas is a&nbsp;Tech Cofounding Company. We partner
+                Nikmas Tech is a&nbsp;Cofounding Company. We partner
                 with&nbsp;entrepreneurs, bringing our full expertise
                 to&nbsp;transform ideas into&nbsp;highly profitable
                 and&nbsp;useful tech businesses.
               </span>
               <span className='hidden  sm:inline'>
-                Nikmas&nbsp;is&nbsp;a&nbsp;Tech&nbsp;Cofounding&nbsp;Company.
+                Nikmas Tech&nbsp;is&nbsp;a&nbsp;Cofounding&nbsp;Company.
                 <br /> We&nbsp;partner&nbsp;with&nbsp;entrepreneurs, bringing
                 <br />{' '}
                 our&nbsp;full&nbsp;expertise&nbsp;to&nbsp;transform&nbsp;ideas&nbsp;
