@@ -59,7 +59,7 @@ function Intro(): ReactElement {
           >
             <Appear>
               <Image
-                className='w-full  dark:hidden'
+                className='pointer-events-none  w-full  select-none  dark:hidden'
                 src={nikmasLight}
                 alt='Nikmas'
                 quality={100}
@@ -67,7 +67,7 @@ function Intro(): ReactElement {
                 sizes='(max-width: 639px) 40vw, (max-width: 767px) 128px, (max-width: 1179) 17vw, 215px'
               />
               <Image
-                className='hidden  w-full  dark:inline-block'
+                className='pointer-events-none  hidden  w-full  select-none  dark:inline-block'
                 src={nikmasDark}
                 alt='Nikmas'
                 quality={100}

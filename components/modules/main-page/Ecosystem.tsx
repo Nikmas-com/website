@@ -21,9 +21,9 @@ function Ecosystem(): ReactElement {
             <div className='w-[85%]  max-w-80'>
               <ExternalLink href='https://nikmas.studio'>
                 <Image
-                  className='w-full
-                         will-change-transform
-                         [filter:drop-shadow(0_0_80px_rgba(0,0,0,0.07))]  dark:hidden'
+                  className='pointer-events-none  w-full  select-none
+                             will-change-transform
+                             [filter:drop-shadow(0_0_80px_rgba(0,0,0,0.07))]  dark:hidden'
                   src={NikmasStudioLight}
                   alt='Nikmas Studio'
                   quality={100}
@@ -31,7 +31,7 @@ function Ecosystem(): ReactElement {
                   priority
                 />
                 <Image
-                  className='hidden  w-full
+                  className='pointer-events-none  hidden  w-full  select-none
                          will-change-transform
                          [filter:drop-shadow(0_0_80px_rgba(255,255,255,0.18))]  
                          xl:[filter:drop-shadow(0_0_120px_rgba(255,255,255,0.14))]  
