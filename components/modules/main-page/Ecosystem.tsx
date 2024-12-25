@@ -28,6 +28,7 @@ function Ecosystem(): ReactElement {
                   alt='Nikmas Studio'
                   quality={100}
                   sizes='320px'
+                  priority
                 />
                 <Image
                   className='hidden  w-full
@@ -39,6 +40,7 @@ function Ecosystem(): ReactElement {
                   alt='Nikmas Studio'
                   quality={100}
                   sizes='320px'
+                  priority
                 />
               </ExternalLink>
             </div>
@@ -56,8 +58,8 @@ function Ecosystem(): ReactElement {
               </BasicTextNode>
             </div>
             <BasicTextNode
-              className='mt-9  text-center  text-[11rem]
-                       leading-none  mb-14'
+              className='mb-14  mt-9  text-center
+                         text-[11rem]  leading-none'
             >
               ...
             </BasicTextNode>
