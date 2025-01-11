@@ -26,7 +26,9 @@ function Footer({ className }: FooterProps): ReactElement {
                    sm:items-start  sm:justify-between'
       >
         <div className='flex  flex-col  items-center  sm:items-start'>
-          <p className='mb-5  text-lg  dark:text-white'>© Nikmas Tech, 2024</p>
+          <p className='mb-5  text-lg  dark:text-white'>
+            © Nikmas Tech, {new Date().getFullYear()}
+          </p>
         </div>
         <ul className='mb-12  flex  gap-5  sm:mb-0  sm:grid  sm:grid-cols-2  md:grid-flow-col'>
           <li>
