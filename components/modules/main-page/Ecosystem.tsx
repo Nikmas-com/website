@@ -49,7 +49,7 @@ function Ecosystem(): ReactElement {
               <BasicTextNode className='text-[1.3rem]  !leading-[1.3]'>
                 Next-gen&nbsp;publishing&nbsp;studio
                 <br /> that&nbsp;specializes&nbsp;in&nbsp;creating
-                <br /> interactive&nbsp;e-books:
+                <br /> interactive&nbsp;edu books:
               </BasicTextNode>
               <BasicTextNode className='mt-3  text-[1.3rem]  !leading-[1.3]'>
                 <ExternalLink defaultTextLink href='https://nikmas.studio'>
