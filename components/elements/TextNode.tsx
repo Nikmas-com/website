@@ -9,7 +9,7 @@ interface TextNodeProps {
 
 const TextNode = forwardRef<HTMLParagraphElement, TextNodeProps>(
   function TextNode({ className, children }: TextNodeProps, ref): ReactElement {
-    const classes = classNames(`text-xl  mb-5`, className);
+    const classes = classNames(`text-[1.3rem]  !leading-[1.8rem]`, className);
 
     return (
       <BasicTextNode ref={ref} className={classes}>

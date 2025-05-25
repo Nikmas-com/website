@@ -14,6 +14,11 @@ export const gilroy = localFont({
       style: 'normal',
     },
     {
+      path: './public/fonts/Gilroy-RegularItalic.woff2',
+      weight: '400',
+      style: 'italic',
+    },
+    {
       path: './public/fonts/Gilroy-Medium.woff2',
       weight: '500',
       style: 'normal',

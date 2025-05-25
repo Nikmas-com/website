@@ -8,6 +8,7 @@ export default {
   ],
   theme: {
     screens: {
+      '3sm': '360px',
       '2sm': '460px',
       '1.5sm': '537px',
       sm: '640px',

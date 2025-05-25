@@ -27,7 +27,7 @@ function Footer({ className }: FooterProps): ReactElement {
       >
         <div className='flex  flex-col  items-center  sm:items-start'>
           <p className='mb-5  text-lg  dark:text-white'>
-            © Nikmas Tech, {new Date().getFullYear()}
+            © Nikmas, {new Date().getFullYear()}
           </p>
         </div>
         <ul className='mb-12  flex  gap-5  sm:mb-0  sm:grid  sm:grid-cols-2  md:grid-flow-col'>
@@ -83,7 +83,7 @@ function Footer({ className }: FooterProps): ReactElement {
         <div className='mb-9  flex  flex-col  sm:mb-0'>
           <p className='text-lg  font-semibold  dark:text-white'>
             <ExternalLink href='mailto:team@nikmas.tech'>
-              team@nikmas.tech
+              team@nikmas.com
             </ExternalLink>
           </p>
         </div>
