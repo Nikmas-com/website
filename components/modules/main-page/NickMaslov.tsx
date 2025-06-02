@@ -9,7 +9,7 @@ function NickMaslov(): ReactElement {
   return (
     <section className='mt-[5.5rem]  lg:mt-36'>
       <MainContainer className='flex  flex-col  items-center'>
-        <div className='flex  max-w-[22rem]  flex-col  items-center'>
+        <div className='flex  max-w-[27rem]  flex-col  items-center'>
           <Image
             width={270}
             className='rounded-full'
@@ -17,9 +17,10 @@ function NickMaslov(): ReactElement {
             alt='Nick Maslov'
           />
           <H2 className='mt-8'>Nick Maslov</H2>
-          <TextNode className='mt-[0.6rem]  italic'>
-            CEO at&nbsp;Nikmas, educational expert, software engineer, designer,
-            editor, marketer, and&nbsp;entrepreneur
+          <TextNode className='mt-[0.6rem]  text-center  italic'>
+            Founder&nbsp;&&nbsp;CEO at&nbsp;Nikmas, educational&nbsp;expert,
+            software&nbsp;engineer, designer, editor, marketer,
+            and&nbsp;entrepreneur
           </TextNode>
           <TextNode
             className='relative  ml-[30px]  mt-6  
