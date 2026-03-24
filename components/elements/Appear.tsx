@@ -24,7 +24,7 @@ function Appear({ children }: { children: ReactNode }): ReactElement {
       });
     });
 
-    mm.add('(min-width: 768px) and (max-width: 1279px)', () => {
+    mm.add('(max-width: 1279px)', () => {
       ScrollTrigger.create({
         trigger: contentBlockRef.current,
         start: 'top 390',
@@ -39,7 +39,7 @@ function Appear({ children }: { children: ReactNode }): ReactElement {
 
   return (
     <div
-      className='[transition:opacity_1s_ease-out]  md:opacity-0'
+      className='opacity-0  [transition:opacity_1s_ease-out]'
       ref={contentBlockRef}
     >
       {children}

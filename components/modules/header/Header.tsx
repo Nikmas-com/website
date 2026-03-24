@@ -92,7 +92,7 @@ function Header({
   }, [onHeaderIsScrolledChange]);
 
   const headerClasses = classNames(
-    `pt-4  pb-6  fixed  left-0  right-0  top-0  border-b
+    `pt-1.5  pb-2.5  fixed  left-0  right-0  top-0  border-b
      transition-transform  duration-700  z-50
      [background-image:linear-gradient(135deg,var(--headerLightModeBgFirstColor),var(--headerLightModeBgSecondColor))]
      dark:[background-image:linear-gradient(135deg,var(--headerDarkModeBgFirstColor),var(--headerDarkModeBgSecondColor))]`,
