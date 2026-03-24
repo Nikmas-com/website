@@ -7,7 +7,7 @@ function Intro(): ReactElement {
       <MainContainer>
         <h1>
           <span
-            className='mb-2  block  translate-x-[-1.6vw]  
+            className='mb-1.5  block  translate-x-[-1.6vw]  
                        text-[27.45vw]  font-bold  leading-none
                        text-black  1.5sm:mb-0 
                        sm:text-[26.9vw]  lg:-mb-5  lg:translate-x-[-1.4vw]
