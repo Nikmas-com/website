@@ -77,7 +77,7 @@ function Footer({ className }: FooterProps): ReactElement {
         </ul> */}
         <div className='mb-3  flex  flex-col  sm:mb-0'>
           <p className='text-lg  font-semibold  dark:text-white'>
-            <ExternalLink href='mailto:team@nikmas.tech'>
+            <ExternalLink href='mailto:team@nikmas.com'>
               team@nikmas.com
             </ExternalLink>
           </p>
