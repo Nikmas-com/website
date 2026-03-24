@@ -6,7 +6,7 @@ import { ReactElement } from 'react';
 
 function Ecosystem(): ReactElement {
   return (
-    <section className='mt-[5.5rem]  lg:mt-36'>
+    <section className='mt-[4.5rem]  lg:mt-36'>
       <MainContainer>
         <div className='rounded-[30px]  border  border-gray-light  lg:grid lg:grid-cols-2  dark:border-gray-dark'>
           <div
