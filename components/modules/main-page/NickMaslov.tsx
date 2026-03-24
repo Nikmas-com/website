@@ -19,7 +19,7 @@ function NickMaslov(): ReactElement {
           <H2 className='mt-8'>Nick Maslov</H2>
           <TextNode className='mt-[0.6rem]  text-center  italic'>
             Founder&nbsp;&&nbsp;CEO at&nbsp;Nikmas, educational&nbsp;expert,
-            software&nbsp;engineer, designer, editor, marketer,
+            software&nbsp;engineer, UX/UI&nbsp;designer, marketer,
             and&nbsp;entrepreneur
           </TextNode>
           <TextNode
