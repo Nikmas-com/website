@@ -7,7 +7,7 @@ function Intro(): ReactElement {
       <MainContainer>
         <h1>
           <span
-            className='mb-1.5  block  translate-x-[-1.6vw]  
+            className='mb-1  block  translate-x-[-1.6vw]  
                        text-[27.45vw]  font-bold  leading-none
                        text-black  1.5sm:mb-0 
                        sm:text-[26.9vw]  lg:-mb-5  lg:translate-x-[-1.4vw]
@@ -17,8 +17,8 @@ function Intro(): ReactElement {
             Nikmas
           </span>
           <span
-            className='text-[10vw]  font-semibold  leading-tight
-                       1.5sm:text-[6vw]  lg:text-[5vw]  lg:leading-tight
+            className='text-[10vw]  font-semibold  leading-[1.2]
+                       1.5sm:text-[6vw]  lg:text-[5vw]
                      2xl:text-[77px]  dark:text-white'
           >
             is{' '}
