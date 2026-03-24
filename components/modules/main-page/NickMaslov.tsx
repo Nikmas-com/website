@@ -26,7 +26,7 @@ function NickMaslov(): ReactElement {
             className='relative  ml-[30px]  mt-6  
                        before:absolute  before:left-[-2.1rem]  
                        before:top-[0.8rem]  before:text-[3rem]
-                       before:font-bold  before:content-["“"]'
+                       before:font-bold  before:content-["“"]  sm:translate-x-2'
           >
             We&apos;re building the&nbsp;ecosystem where&nbsp;everyone can find
             an&nbsp;opportunity to&nbsp;grow — either&nbsp;professionally
