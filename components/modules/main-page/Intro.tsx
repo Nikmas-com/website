@@ -17,7 +17,7 @@ function Intro(): ReactElement {
             Nikmas
           </span>
           <span
-            className='text-[10vw]  font-semibold  leading-snug
+            className='text-[10vw]  font-semibold  leading-tight
                        1.5sm:text-[6vw]  lg:text-[5vw]  lg:leading-tight
                      2xl:text-[77px]  dark:text-white'
           >

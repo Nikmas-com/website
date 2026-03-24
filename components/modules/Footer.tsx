@@ -1,9 +1,4 @@
-import facebookLogo from '@/public/images/facebook-logo.svg';
-import instagramLogo from '@/public/images/instagram-logo.png';
-import linkedinLogo from '@/public/images/linkedin-logo.png';
-import telegramLogo from '@/public/images/telegram-logo.png';
 import classNames from 'classnames';
-import Image from 'next/image';
 import { ReactElement } from 'react';
 import ExternalLink from '../elements/ExternalLink';
 import MainContainer from '../elements/MainContainer';
@@ -30,7 +25,7 @@ function Footer({ className }: FooterProps): ReactElement {
             © Nikmas, {new Date().getFullYear()}
           </p>
         </div>
-        <ul className='mb-12  flex  gap-5  sm:mb-0  sm:grid  sm:grid-cols-2  md:grid-flow-col'>
+        {/* <ul className='mb-12  flex  gap-5  sm:mb-0  sm:grid  sm:grid-cols-2  md:grid-flow-col'>
           <li>
             <ExternalLink href='https://t.me/nikmas_tech'>
               <Image
@@ -79,8 +74,8 @@ function Footer({ className }: FooterProps): ReactElement {
               />
             </ExternalLink>
           </li>
-        </ul>
-        <div className='mb-9  flex  flex-col  sm:mb-0'>
+        </ul> */}
+        <div className='mb-3  flex  flex-col  sm:mb-0'>
           <p className='text-lg  font-semibold  dark:text-white'>
             <ExternalLink href='mailto:team@nikmas.tech'>
               team@nikmas.com

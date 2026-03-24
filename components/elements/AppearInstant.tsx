@@ -10,20 +10,24 @@ function AppearInstant({ children }: { children: ReactNode }): ReactElement {
   const contentBlockRef = useRef<HTMLDivElement | null>(null);
 
   useGSAP(() => {
-    ScrollTrigger.create({
-      trigger: contentBlockRef.current,
-      start: 'top 100000',
-      onEnter: () => {
-        gsap.set(contentBlockRef.current, {
-          opacity: 1,
-        });
-      },
+    const mm = gsap.matchMedia();
+
+    mm.add('(min-width: 768px)', () => {
+      ScrollTrigger.create({
+        trigger: contentBlockRef.current,
+        start: 'top 100000',
+        onEnter: () => {
+          gsap.set(contentBlockRef.current, {
+            opacity: 1,
+          });
+        },
+      });
     });
   }, []);
 
   return (
     <div
-      className='opacity-0  [transition:opacity_2s_ease-in-out]'
+      className='[transition:opacity_1s_ease-in-out]  md:opacity-0'
       ref={contentBlockRef}
     >
       {children}

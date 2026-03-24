@@ -1,3 +1,4 @@
+import Appear from '@/components/elements/Appear';
 import AppearInstant from '@/components/elements/AppearInstant';
 import DefaultLayout from '@/components/layouts/DefaultLayout';
 import Footer from '@/components/modules/Footer';
@@ -54,10 +55,12 @@ export default function Home(): ReactElement {
           <main>
             <AppearInstant>
               <Intro />
+            </AppearInstant>
+            <Appear>
               <Ecosystem />
               <NickMaslov />
               <ThreeDots />
-            </AppearInstant>
+            </Appear>
           </main>
           <Footer />
         </div>
