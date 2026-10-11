@@ -16,14 +16,12 @@ function NickMaslov(): ReactElement {
             src={NickMaslovAva}
             alt='Nick Maslov'
           />
-          <H2 className='mt-8'>Nick Maslov</H2>
-          <TextNode className='mt-[0.6rem]  text-center  italic'>
-            Founder&nbsp;&&nbsp;CEO at&nbsp;Nikmas, educational&nbsp;expert,
-            software&nbsp;engineer, UX/UI&nbsp;designer, marketer,
-            and&nbsp;entrepreneur
+          <H2 className='mt-6'>Nick Maslov</H2>
+          <TextNode className='mt-[0.2rem]  text-center  italic'>
+            Founder&nbsp;&&nbsp;CEO at&nbsp;Nikmas
           </TextNode>
           <TextNode
-            className='relative  ml-[30px]  mt-6  
+            className='relative  ml-[30px]  mt-5  
                        before:absolute  before:left-[-2.1rem]  
                        before:top-[0.8rem]  before:text-[3rem]
                        before:font-bold  before:content-["“"]  sm:translate-x-2'
